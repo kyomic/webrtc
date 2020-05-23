@@ -101,7 +101,7 @@ const client = {
     
   ],
   devServer: {   
-    port:8081,
+    port:8082,
     contentBase: false, // boolean | string | array, static file location
     compress: true, // enable gzip compression
     historyApiFallback: true, // true for index.html upon 404, object for multiple paths
@@ -115,4 +115,4 @@ const client = {
   }
 }
 
-module.exports = [umd, client]
+module.exports = umd

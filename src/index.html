@@ -4,6 +4,20 @@
         <meta charset="utf-8">
         <title>webrtc</title>
         <style>
+            body{font-size: 12px;}
+            #users{
+                position: absolute;right: 0;top: 0
+            }
+            #users .own{color:#00cc00;}
+            #msg{
+                position: absolute;right: 20px;bottom:20px;color:#666; border:1px solid #ccc;padding:10px;
+                width: 200px;
+                min-height: 200px;
+                max-height: 300px;
+                overflow-x:hidden;
+                overflow-y:scroll;
+            }
+
         </style> 
        
     </head>
@@ -13,5 +27,13 @@
         <video id="localVideo" autoplay style="width:80px"></video><br>
         Remote: <br>
         <video id="remoteVideo" autoplay style="width:80px"></video>
+        <button id="exit">退出</button>
+        <div id="room">
+            UserId:<span id="uid"></span>
+        </div>
+        <div id="users">
+
+        </div>
+        <div id="msg"></div>
     </body>
 </html>

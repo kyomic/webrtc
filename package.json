@@ -7,11 +7,12 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "webpack-dev-server  --mode development  --config ./webpack.config.dev.js",
     "server": "node server.js",
-    "build": "webpack --progress --display-chunks --watch --config ./webpack.config.dev.js"
+    "build": "webpack --progress --display-chunks --watch --config ./webpack.config.dev.js",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git@code.funshion.com:seattle/html5video.git"
+    "url": "git@github.com:kyomic/webrtc.git"
   },
   "author": "kyomic",
   "license": "ISC",
