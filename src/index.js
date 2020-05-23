@@ -12,5 +12,5 @@ let supported = media.enumerateDevices().then(res=>{
 })
 console.log('supported',supported)
 
-import test_stream from './test_socker'
+import test_stream from './test_rtc'
 test_stream();
